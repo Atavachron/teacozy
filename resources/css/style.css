@@ -1,0 +1,152 @@
+
+/* Global Styles*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9;
+  }
+
+  h4, h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+/*Styles for the Header (logo and navigation) section*/
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  z-index: 10;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  text-decoration: underline;
+  margin-left: auto;
+}
+
+nav a {
+  color: seashell;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+/* Styles for the "Our Mission" section*/
+
+#mission-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#mission-sec .strip {
+  background-color: black;
+  width: 100%;
+}
+
+.strip h2 {
+  margin: 10px 0 20px 0;
+}
+
+.strip h4 {
+  margin: 10px 0;
+  }
+
+/* Styles for the "Tea of the Month" section */
+
+#teas-sec {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  height: 200px;
+  width: 300px;
+  margin: 0 10px;
+  padding: 0;
+}
+
+#teas-sec h4 {
+  margin: 10px 0;
+}
+
+
+/* Styles for the locations section*/
+
+
+#locations-sec {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 570px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+#locations-sec h2 {
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  }
+
+.locations .locale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+/* Footer Styles*/
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.contact {
+  height: 200px;
+}
+
+footer h2 {
+  margin-top: 10px;
+}
